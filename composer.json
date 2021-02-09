@@ -1,0 +1,32 @@
+{
+    "name": "sugin/vrboget",
+    "description": "Auth",
+    "type": "project",
+    "require": {
+        "josegonzalez/dotenv": "dev-master",
+        "sugin/router": "^1.0",
+        "nategood/httpful": "^0.3.2",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./vendor"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "app/routes.php"
+        ]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sugin Paladin",
+            "email": "34408293+sugin223pl@users.noreply.github.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true
+    }
+}
